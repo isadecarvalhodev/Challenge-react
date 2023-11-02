@@ -1,5 +1,5 @@
 function Bookshelf(ownerName,favoriteBooks) {
-  this.ownerName = "";  
+  this.ownerName = ownerName;  
   this.favoriteBooks = [];
   }
 
@@ -10,7 +10,7 @@ function Bookshelf(ownerName,favoriteBooks) {
   };
 
   Bookshelf.prototype.printFavoriteBooks = function() {
-    console.log(`${String(this.ownerName)} Favorite Books: ${String(this.favoriteBooks.length)}`);
+    console.log(`${String(this.ownerName)}Favorite Books: ${String(this.favoriteBooks.length)}`);
     for (let bookName of this.favoriteBooks) {
       console.log(bookName);
     }
