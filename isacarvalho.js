@@ -22,6 +22,8 @@ function Bookshelf(ownerName,favoriteBooks) {
   }
 
 
+
+
 function loadBooks(bookshelf) {
   fakeAjax(BOOK_API, function onBooks(bookNames) {
     for (let bookName of bookNames) {
@@ -31,6 +33,12 @@ function loadBooks(bookshelf) {
     bookshelf.sortFavoriteBooksByAlphabeticDescendingOrder();
   });
 }
+
+function CardBox(ownerName,favoriteBooks) {
+  this.ownerName = ownerName;
+ this.favoriteBooks = favoriteBooks;
+}
+
 
 var BOOK_API = "https://some.url/api";
 var myBooks = new Bookshelf("Lisa ");
