@@ -1,3 +1,4 @@
+
 # Three Pillars of JS - Prototype Version
 
 This is an extra exercise to practice and apply the `this` / Prototype pillar.
@@ -5,7 +6,6 @@ Instructions 1 to 4 (included) are **required** for this exercise.
 Instruction 5 is **optional**.
 
 ## Instructions
-
 Start with the "Three Pillars of JS" solution that is on the file `ex.js`.
 
 1. **Required!** Refactor the code to **NOT** use the `class` keyword and instead use Prototypes to achieve the same outcome as the last exercise.
